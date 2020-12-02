@@ -1,0 +1,23 @@
+{
+  "name": "react-dnd-lib",
+  "version": "1.0.0",
+  "description": "Simple react drag and drop library",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^26.0.16",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.2"
+  }
+}
