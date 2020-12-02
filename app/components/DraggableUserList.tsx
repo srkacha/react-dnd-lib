@@ -32,8 +32,9 @@ export const DraggableUserList = () => {
 		<ul>
 			<DragArea items={exampleUsers} onChange={setExampleUsers}>
 				{exampleUsers.map((user, i) => (
-					<DragItem key={user.id}>
+					<DragItem key={user.id} index={user.id}>
 						<li>
+							<span>{user.id}</span>
 							<span>{user.firstName}</span>
 							<span>{user.email}</span>
 						</li>
